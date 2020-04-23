@@ -76,10 +76,10 @@ def LoopTweets(myFunction, tweet_delay, sleep_delay, clean_all = True):
         time.sleep(sleep_delay)   
     except:
       print("get rekt")
-
-DeleteAllTweets()
-
-LoopTweets(PrintHotTweets, 60, 5*60, True)
+    
+    
+if __name__ == "__main__":
+    LoopTweets(PrintHotTweets, 60, 5*60, True)
 
 
 
